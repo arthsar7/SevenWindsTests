@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_nav"
+    app:startDestination="@id/fragmentRegister">
+
+    <fragment
+        android:id="@+id/fragmentRegister"
+        android:name="com.template.sevenwindstests.presentation.FragmentRegister"
+        android:label="FragmentRegister" >
+        <action
+            android:id="@+id/action_fragmentRegister_to_fragmentLogin"
+            app:destination="@id/fragmentLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="com.template.sevenwindstests.presentation.FragmentLogin"
+        android:label="FragmentLogin" >
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentCoffeeLocations"
+            app:destination="@id/fragmentCoffeeLocations" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCoffeeLocations"
+        android:name="com.template.sevenwindstests.presentation.FragmentCoffeeLocations"
+        android:label="FragmentCoffeeLocations" >
+        <action
+            android:id="@+id/action_fragmentCoffeeLocations_to_fragmentCoffeeMenu"
+            app:destination="@id/fragmentCoffeeMenu" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentCoffeeMenu"
+        android:name="com.template.sevenwindstests.presentation.FragmentCoffeeMenu"
+        android:label="FragmentCoffeeMenu" >
+        <action
+            android:id="@+id/action_fragmentCoffeeMenu_to_fragmentMenuOrder"
+            app:destination="@id/fragmentMenuOrder" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentMenuOrder"
+        android:name="com.template.sevenwindstests.presentation.FragmentMenuOrder"
+        android:label="FragmentMenuOrder" />
+</navigation>

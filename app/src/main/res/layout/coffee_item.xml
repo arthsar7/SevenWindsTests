@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/textColor"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/nameTv"
+            android:layout_margin="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BEDOEV COFFEE"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/brown"/>
+        <TextView
+            android:id="@+id/nearTv"
+            android:textColor="@color/alpha_brown"
+            android:layout_marginHorizontal="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 км от Вас"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

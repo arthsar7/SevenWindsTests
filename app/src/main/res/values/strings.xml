@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">SevenWindsTests</string>
+    <string name="e_mail">e-mail</string>
+    <string name="password">Пароль</string>
+    <string name="repeat_password">Повторите пароль</string>
+    <string name="register">Регистрация</string>
+    <string name="enter">Войти</string>
+    <string name="s">%s руб</string>
+    <string name="time">Время ожидания заказа\n15 минут!\nСпасибо, что выбрали нас!</string>
 </resources>
